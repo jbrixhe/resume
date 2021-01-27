@@ -1,0 +1,1 @@
+$merge([$, {"references": [], "meta": $merge([meta, {"generated": $now()}])}])

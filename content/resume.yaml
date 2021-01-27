@@ -1,0 +1,278 @@
+basics:
+  name: Jérémy Brixhe
+  label: Senior Backend Developer and SRE (Freelance)
+  summary: >-
+    Senior Software Engineer (Freelance) with a long experience in backend development
+    and infrastructure management with modern
+    tools ([Kubernetes](https://kubernetes.io), [Terraform](https://terraform.io), [Google Cloud](https://cloud.google.com/)).
+    My aim is to provide the ideal solution that fits best the needs of my customers.
+
+    Testing has become an integral part of my approach to backend development.
+    In addition to systematic unit testing, I use tools like [Skaffold](https://skaffold.dev/) to develop my applications and connect to the infrastructure.
+
+    ### Specialties
+
+    Rust, Kotlin, Golang, Cloud Computing, Terraform, Ansible, Google Cloud Platform, Kubernetes,
+    Nginx Ingress Controller, Monitoring (Thanos, Prometheus, AlertManager, Grafana, Loki), LinkerD,
+    Java, Spring, Hibernate, Web Services (RESTFull apis, GraphQL, JSON, JWT).
+
+  phone: +32 492 43 02 35
+  email: jeremy@brixhe.dev
+  location:
+    city: Brussels,
+    region: Belgium
+  profiles:
+    - network: linkedin
+      username: jeremy-brixhe
+      url: https://www.linkedin.com/in/jeremy-brixhe/
+work:
+  - company: Streamroot
+    position: Scalability and Reliability Engineer
+    description: Backend developement in Rust and Golang.
+    website: https://streamroot.io/
+    location: Paris, France
+    startDate: "2019-03"
+    endDate: "2020-12"
+    summary: >-
+      Development of peer matching and remote configuration service for our peer-to-peer network.
+      Manage multiple Kubernetes clusters with dozens of nodes in production spread over
+      multiple availability zones in the Cloud. At peak, the system support millions of
+      concurrent Websocket connections and tens of thousands of requests per second.
+    highlights:
+      - Set up cloud architecture, from VPC, Firewall and Bastion to **Kubernetes** clusters and virtual machines
+      - Design and build a tracker powered by **Rust** to match peers in a peer-to-peer network
+      - >-
+        Configure infrastructure to handle large traffic increase (5 to 10 times) in a short period of time (20-30 minutes)
+        using **Horizontal Pod Autoscaler**
+      - Build and maintain Restful API gateway using **Golang**
+      - Set up the Continuous Integration with lint, unit test and delivery process to ensure product quality
+    technologies:
+      - Rust
+      - Golang
+      - Google Cloud platform
+      - Kubernetes
+      - Linkerd
+      - Nginx Ingress Controller
+      - GCE Ingress Controller
+      - Kustomize
+      - Helm
+      - Thanos
+      - Prometheus
+      - Grafana
+      - Loki
+      - Kafka
+      - Flink
+      - Apache Druid
+      - Apache Superset
+      - Terraform
+      - Ansible
+      - Mozilla SOPS
+      - CircleCI
+  - company: Streamroot
+    position: Media and SDK Engineer
+    description: Android developement in Kotlin and Javascript
+    website: https://streamroot.io/
+    location: Paris, France
+    startDate: "2017-09"
+    endDate: "2019-03"
+    summary: Development of an P2P SDK for OTT video data sharing on Android devices.
+    highlights:
+      - >-
+        Built and maintained Android SDK powered by **Google WebRTC** to
+        share OTT video data in a peer-to-peer network
+      - Migrate core features from Java to **kotlin** and **Coroutines**
+      - Reduce SDK memory foot print to support low end devices
+      - Set up the Continuous Integration with lint, unit test and delivery process to ensure product quality
+      - Redesigned the customer API and documentation to simplify the SDK integration
+    technologies:
+      - Kotlin
+      - Coroutines
+      - Java
+      - Android SDK
+      - Javascript
+      - TypeScript
+      - CircleCI
+  - company: Solutions Medias 360
+    position: Senior Backend Developer
+    description: Backend developement in Java
+    website: "https://360.agency"
+    location: Montreal, Canada
+    startDate: "2016-09"
+    endDate: "2017-07"
+    summary: >-
+      Development of a Content Management System for car dealers.
+    highlights:
+      - Built and maintained API gateway powered by **GraphQL**
+      - Ensured high quality and well tested code delivered through code reviews and continuous integration
+      - Worked with the Agile and continuous delivery methodologies, following the industry’s best practices
+    technologies:
+      - Java
+      - Spring
+      - Hibernate
+      - JPA
+      - JUnit
+      - ElasticSearch
+      - MySQL
+      - GraphQL
+      - Git
+      - Maven
+      - Amazon-Web-Services
+  - company: Take Eat Easy
+    position: Senior Backend Developer
+    description: Backend developement in Java
+    location: Brussels, Belgium
+    startDate: "2015-10"
+    endDate: "2016-08"
+    summary: >-
+      Development of a Content Management System for restaurants available for delivery. Orders and deliveries realtime tracking related features.
+    highlights:
+      - Built a new web application using micro service architecture for the live operations
+      - Improve and maintain custom content management system for restaurants and their menus
+      - Create a new invoicing system for our partners (restaurants, couriers and customers)
+    technologies:
+      - Java
+      - Spring
+      - Hibernate
+      - JPA
+      - TestNG
+      - Tomcat
+      - Mysql
+      - Git
+      - Maven
+      - Amazon-Web-Services
+  - company: Lampiris
+    position: Backend Developer
+    description: Backend developement in Java
+    website: "https://www.lampiris.be"
+    location: Liège, Belgium
+    startDate: "2014-07"
+    endDate: "2015-10"
+    summary: >-
+      Development of a billing application.
+    highlights:
+      - >-
+        Elaboration and implementation of an easily testable workflow system to separate
+        the different processes and avoid regressions
+      - Developing a dynamic export system to send invoices to various partners
+      - Develop integration test system to easily create relevant and powerful tests for each billing workflow
+    technologies:
+      - Java
+      - Spring
+      - Hibernate
+      - Apache Camel
+      - Junit
+      - JPA
+      - Postgresql
+      - JBoss
+      - Karaf
+      - Git
+      - Maven
+  - company: Silicon Brain
+    position: Junior Developer
+    description: Application and mobile developement in Delphi and Java
+    website: "https://www.silicon-brain.com/fr/"
+    location: Liège, Belgium
+    startDate: "2012-08"
+    endDate: "2014-07"
+    summary: >-
+      Development of an ERP application. Stock management and invoicing related features.
+    highlights:
+      - >-
+        Design and develop an android applications for stock management
+      - Development specifics applications using Delphi
+      - Maintain ERP application with a very large code base
+    technologies:
+      - Delphi
+      - Ads
+      - Android SDK
+      - SQLite
+
+education:
+  - institution: Haute Ecole Libre Mosane – Saint-Laurent
+    location: Liège, Belgium
+    area: Business Computing
+    studyType: Bachelor's degree
+    startDate: "2008-09"
+    endDate: "2011-06"
+  - institution: Athénée Royal Ardennes - Hautes Fagnes
+    location: Stavelot, Belgium
+    area: Science
+    studyType: High school
+    startDate: "2001-09"
+    endDate: "2007-06"
+skills:
+  - name: Infrastructure
+    level: Master
+    keywords:
+      - Kubernetes
+      - Docker
+      - Terraform
+      - Ansible
+      - Google Cloud Platform
+      - Gitops
+  - name: Monitoring
+    level: Master
+    keywords:
+      - Thanos
+      - Prometheus
+      - Alertmanager
+      - Grafana
+      - Loki
+      - Linkerd
+  - name: Programming Languages
+    level: Master
+    keywords:
+      - Rust
+      - Golang
+      - Kotlin
+      - Java
+  - name: Rust Ecosystem
+    level: Master
+    keywords:
+      - Tokio
+      - Hyper
+      - Tungstenite
+      - Serde
+  - name: JVM Ecosystem
+    level: Master
+    keywords:
+      - Kotlin
+      - Coroutines
+      - Java
+      - Springboot
+      - Apache Camel
+  - name: Web Development
+    level: Master
+    keywords:
+      - REST
+      - SOAP
+      - GraphQL
+      - Json Web Tokens
+  - name: Databases
+    level: Master
+    keywords:
+      - PostgreSQL
+      - Mysql
+      - InfluxDB
+      - Redis
+  - name: Tooling
+    level: Master
+    keywords:
+      - Docker
+      - Git
+      - Gitops
+      - CircleCI
+  - name: Methodology
+    level: Master
+    keywords:
+      - Scrum
+      - Kanban
+      - TDD
+      - Testing Strategy
+languages:
+  - language: English
+    fluency: Full professional
+  - language: French
+    fluency: Native or bilingual
+meta:
+  theme: elegant

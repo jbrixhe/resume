@@ -1,0 +1,24 @@
+diff --git a/node_modules/resume-cli/build/render-html.js b/node_modules/resume-cli/build/render-html.js
+index febd7dd..aeeb32f 100644
+--- a/node_modules/resume-cli/build/render-html.js
++++ b/node_modules/resume-cli/build/render-html.js
+@@ -1,4 +1,5 @@
+ "use strict";
++const nodepath = require("path");
+ 
+ Object.defineProperty(exports, "__esModule", {
+   value: true
+@@ -21,10 +22,11 @@ var _default = async ({
+   let path;
+ 
+   if (themePath[0] === '.') {
+-    path = tryResolve(path.join(cwd, themePath), {
++    path = tryResolve(nodepath.join(cwd, themePath), {
+       paths: [cwd]
+     });
+-    throw new Error(`Theme ${themePath} could not be resolved relative to ${cwd}`);
++    if(!path)
++      throw new Error(`Theme ${themePath} could not be resolved relative to ${cwd}`);
+   }
+ 
+   if (!path) {

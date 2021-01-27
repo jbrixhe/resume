@@ -1,0 +1,39 @@
+{
+  "name": "resume-json",
+  "version": "1.0.0",
+  "description": "Resume using Json Resume",
+  "main": "index.js",
+  "scripts": {
+    "build": "mkdir -p out && npm run process-resume && npm run export:html && npm run export:puppeteer",
+    "start": "nodemon --watch ./content --watch ./src -e js,yaml,hbs,css,jfq --exec npm run build",
+    "process-resume": "jfq -a -q src/filter_work_references.jfq content/resume.yaml > out/resume.json",
+    "deprecated:export:pdf": "resume export -r out/resume.json --format pdf --theme macchiato out/export.pdf",
+    "export:puppeteer": "puppeteer --margin-top 15mm --margin-right 10mm --margin-bottom 15mm --margin-left 10mm --format A4 --no-sandbox --wait-until networkidle0 print out/export.html out/jeremy_brixhe_resume.pdf",
+    "export:html": "resume export -r out/resume.json --theme ./src/theme out/export.html",
+    "postinstall": "patch-package"
+  },
+  "author": "Jeremy Brixhe",
+  "dependencies": {
+    "address-format": "^0.0.3",
+    "handlebars": "^4.7.6",
+    "handlebars-helpers": "^0.10.0",
+    "handlebars-wax": "^6.1.0",
+    "hbs-cli": "^1.4.0",
+    "jfq": "^1.2.6",
+    "jsonresume-theme-contempo": "0.0.3",
+    "jsonresume-theme-developpez": "^1.1.3",
+    "jsonresume-theme-macchiato": "^1.1.0",
+    "jsonresume-theme-onepage": "0.0.3",
+    "jsonresume-theme-orbit": "^1.0.3",
+    "jsonresume-theme-print-flexbox": "^1.0.0",
+    "jsonresume-theme-spartan": "^0.3.0",
+    "jsonresume-theme-stackoverflow": "^1.4.0",
+    "moment": "^2.24.0",
+    "puppeteer-cli": "^1.5.1",
+    "resume-cli": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "patch-package": "^6.2.2"
+  }
+}

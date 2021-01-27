@@ -1,0 +1,9 @@
+{{#if network}}
+{{#if username}}
+{{#if (eq (lowercase network) "linkedin")}}
+{{> info-tag text=(concat '' this.username) iconb="fa-linkedin-in" }}
+{{else}}
+{{> info-tag text=this.username iconb=(concat "fa-" (lowercase network)) }}
+{{/if}}
+{{/if}}
+{{/if}}
