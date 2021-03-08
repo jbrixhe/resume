@@ -1,6 +1,6 @@
 basics:
   name: Jérémy Brixhe
-  label: Senior Backend Developer and SRE (Freelance)
+  label: Senior Backend Developer (Freelance)
   summary: >-
     Senior Software Engineer (Freelance) with a long experience in backend development
     and infrastructure management with modern
@@ -39,13 +39,13 @@ work:
       multiple availability zones in the Cloud. At peak, the system support millions of
       concurrent Websocket connections and tens of thousands of requests per second.
     highlights:
-      - Set up cloud architecture, from VPC, Firewall and Bastion to **Kubernetes** clusters and virtual machines
-      - Design and build a tracker powered by **Rust** to match peers in a peer-to-peer network
+      - Set-up cloud architecture, from VPC, Firewall and Bastion to **Kubernetes** clusters and virtual machines
+      - Designed and built a tracker powered by **Rust** to match peers in a peer-to-peer network
       - >-
-        Configure infrastructure to handle large traffic increase (5 to 10 times) in a short period of time (20-30 minutes)
+        Configured infrastructure to handle large traffic increase (5 to 10 times) in a short period of time (20-30 minutes)
         using **Horizontal Pod Autoscaler**
-      - Build and maintain Restful API gateway using **Golang**
-      - Set up the Continuous Integration with lint, unit test and delivery process to ensure product quality
+      - Built and maintained Restful API gateway using **Golang**
+      - Set-up the Continuous Integration with lint, unit test and delivery process to ensure product quality
     technologies:
       - Rust
       - Golang
@@ -80,9 +80,9 @@ work:
       - >-
         Built and maintained Android SDK powered by **Google WebRTC** to
         share OTT video data in a peer-to-peer network
-      - Migrate core features from Java to **kotlin** and **Coroutines**
-      - Reduce SDK memory foot print to support low end devices
-      - Set up the Continuous Integration with lint, unit test and delivery process to ensure product quality
+      - Migrated core features from Java to **kotlin** and **Coroutines**
+      - Reduced SDK memory foot print to support low end devices
+      - Set-up the Continuous Integration with lint, unit test and delivery process to ensure product quality
       - Redesigned the customer API and documentation to simplify the SDK integration
     technologies:
       - Kotlin
@@ -127,8 +127,8 @@ work:
       Development of a Content Management System for restaurants available for delivery. Orders and deliveries realtime tracking related features.
     highlights:
       - Built a new web application using micro service architecture for the live operations
-      - Improve and maintain custom content management system for restaurants and their menus
-      - Create a new invoicing system for our partners (restaurants, couriers and customers)
+      - Improved and maintained custom content management system for restaurants and their menus
+      - Created a new invoicing system for our partners (restaurants, couriers and customers)
     technologies:
       - Java
       - Spring
@@ -153,8 +153,8 @@ work:
       - >-
         Elaboration and implementation of an easily testable workflow system to separate
         the different processes and avoid regressions
-      - Developing a dynamic export system to send invoices to various partners
-      - Develop integration test system to easily create relevant and powerful tests for each billing workflow
+      - Developed a dynamic export system to send invoices to various partners
+      - Developed integration test system to easily create relevant and powerful tests for each billing workflow
     technologies:
       - Java
       - Spring
@@ -178,9 +178,9 @@ work:
       Development of an ERP application. Stock management and invoicing related features.
     highlights:
       - >-
-        Design and develop an android applications for stock management
-      - Development specifics applications using Delphi
-      - Maintain ERP application with a very large code base
+        Designed and implemented an android applications for stock management
+      - Developed specifics applications using Delphi
+      - Maintained ERP application with a very large code base
     technologies:
       - Delphi
       - Ads
