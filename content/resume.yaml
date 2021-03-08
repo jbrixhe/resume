@@ -201,24 +201,6 @@ education:
     startDate: "2001-09"
     endDate: "2007-06"
 skills:
-  - name: Infrastructure
-    level: Master
-    keywords:
-      - Kubernetes
-      - Docker
-      - Terraform
-      - Ansible
-      - Google Cloud Platform
-      - Gitops
-  - name: Monitoring
-    level: Master
-    keywords:
-      - Thanos
-      - Prometheus
-      - Alertmanager
-      - Grafana
-      - Loki
-      - Linkerd
   - name: Programming Languages
     level: Master
     keywords:
@@ -241,6 +223,24 @@ skills:
       - Java
       - Springboot
       - Apache Camel
+  - name: Infrastructure
+    level: Master
+    keywords:
+      - Kubernetes
+      - Docker
+      - Terraform
+      - Ansible
+      - Google Cloud Platform
+      - Gitops
+  - name: Monitoring
+    level: Master
+    keywords:
+      - Thanos
+      - Prometheus
+      - Alertmanager
+      - Grafana
+      - Loki
+      - Linkerd
   - name: Web Development
     level: Master
     keywords:
