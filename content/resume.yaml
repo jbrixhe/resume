@@ -205,9 +205,9 @@ skills:
     level: Master
     keywords:
       - Rust
-      - Golang
       - Kotlin
       - Java
+      - Golang
   - name: Rust Ecosystem
     level: Master
     keywords:
